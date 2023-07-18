@@ -1,460 +1,190 @@
-
 <!DOCTYPE html>
-<!-- saved from url=(0044)https://g10h4j3qqhfevc2y.mikecrm.com/xu8wX0B -->
-<!-- 185.199.109.153 -->
-<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"3Ey2qK2OG7bakfRa",ck:"3Ey2qK2OG7bakfRa"})</script>
-<html style="font-size: 12px;">
-	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>网易UU加速器8760时长卡</title>
+<html lang="en">
 
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport"
-			  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-		<meta name="msapplication-tap-highlight" content="no">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="referrer" content="no-referrer" />
-		<link rel="dns-prefetch" href="https://cdn.bootcdn.net">
-		<link rel="dns-prefetch" href="https://article.biliimg.com">
-		<meta name="robots" content="noindex">
-		<meta name="robots" content="noindex, noarchive">
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-		<meta name="renderer" content="webkit">
-		<link rel="stylesheet" type="text/css" href="new.css">
-		<link href="https://cdn.bootcdn.net/ajax/libs/vant/2.12.33/index.min.css" rel="stylesheet">
-		<style type="text/css" id="import-css-str-theme">
-            *{
-                margin: 0;
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <style>
+        * {
             padding: 0;
-            }
-            
-			body {
-			      background-color: #181818
-			    }
-			
-			    :root {
-			      --theme-color: #181818;
-			      --theme-bg-color: rgba(24, 24, 24, 0.04);
-			    }
-			
-			    :focus {
-			      outline: none;
-			    }
-			    .submit {
-			      padding-bottom: 60px;
-			    }
-			
-			    .fb_tvGuide, .fbc_selectArrow {
-			      color: #181818
-			    }
-			
-			    .fbc_descriptionLink, .fbc_descriptionLink:visited {
-			      color: #181818
-			    }
-			
-			    .fbc_descriptionLink:hover {
-			      color: #292929
-			    }
-			
-			    .fbc_input, .fbc_tabularInput, .fbc_authCodeInput, .fbc_select, .fbc_picOptionsLi, .fbc_roItem, .fbc_uploadFile, .fbc_paItem .fbc_uploadContent, .fbc_numberItem, .fbc_numberItem, .bb-is-content, .bb-is-content .bb-is-contentItem, .fbc_separatorHr {
-			      border-color: undefined
-			    }
-			
-			    .fbi_input::placeholder, .fbc_input .fbi_placeholder, .is_empty .fbc_uploadContent, .fbc_paAddTitle, .fbc_paAddTips {
-			      color: rgba(84, 84, 84, 0.5)
-			    }
-			
-			    .fbc_paItem:hover .fbc_paAddTitle, .fbc_paItem:hover .fbc_paAddTips {
-			      color: #545454
-			    }
-			
-			    .fbc_aciTitle {
-			      color: rgba(84, 84, 84, 0.5);
-			      border-right-color: undefined
-			    }
-			
-			    .fbc_input:hover, .fbc_input:focus, .fbc_input.is_focus, .fbc_tabularInput:focus, .fbc_tabularInput.is_focus, .fbc_select:hover, .fbc_select.focus, .fbc_roItem:hover, .fbc_roItem:focus, .fbc_roItem.dragging {
-			      border-color: #181818
-			    }
-			
-			    .fbc_authCodeInput.is_focus {
-			      border-color: #181818
-			    }
-			
-			    
-			    .fbc_authCodeInput.is_focus .fbc_aciTitle {
-			      border-color: rgba(24, 24, 24, 0.3)
-			    }
-			
-			    .fbc_paItem:hover .fbc_uploadContent, .fbc_uploadFile:hover, .lg-countpicker-reduce:hover, .lg-countpicker-increase:hover {
-			      border-color: #181818
-			    }
-			
-			    .bb-btn-hover .bb-radio-outCircle, .bb-btn-hover .bb-radio-innerCircle {
-			      border-color: #292929
-			    }
-			
-			    .bb-btn-hover .bb-checkbox, .bb-btn-hover .bb-radio {
-			      border-color: #292929
-			    }
-			
-			    .bb-btn-hover .bb-checkbox, .bb-btn-hover .bb-radio {
-			      border-color: #292929
-			    }
-			
-			    .bb-btn-focus .bb-radio-outCircle, .bb-btn-hover .bb-radio-innerCircle {
-			      border-color: #181818
-			    }
-			
-			    .bb-btn-focus .bb-checkbox, .bb-btn-focus .bb-radio {
-			      border-color: #181818
-			    }
-			
-			    .fb_appointment_group .fbc_optionsLi.bb-btn-hover, .fb_appointment_group .fbc_optionsLi.bb-btn-focus {
-			      border-color: rgba(24, 24, 24, 0.6)
-			    }
-			
-			    .fbc_optionsLi.bb-btn-hover:before, .fbc_optionsLi.bb-btn-focus:before {
-			      background: rgba(24, 24, 24, 0.12);
-			      border-left: 1px solid rgba(24, 24, 24, 0.3)
-			    }
-			
-			    .fbc_selectLi.bb-btn-hover:before, .fbc_selectLi.fbc_select_current:before, .fbc_picOptionsLi.bb-btn-hover:before, .fbc_picOptionsLi.bb-btn-focus:before, .fbc_uploadFile.bb-btn-hover:before, .fbc_uploadImage.bb-btn-hover:before, .fbc_commodityLink.bb-btn-hover:before, .dsg_timeSelect .dsg_timeOptionList .dsg_timeOption:hover:before, .dsg_timeSelect .dsg_timeOptionList .dsg_timeOption:focus:before {
-			      background: rgba(24, 24, 24, 0.12)
-			    }
-			
-			    .fbc_picOptionsLi.bb-btn-hover, .fbc_picOptionsLi.bb-btn-focus, .fbc_uploadFile.has_value.bb-btn-hover, .fbc_uploadImage.has_value.bb-btn-hover, .dsg_timeSelect .dsg_timeOptionList .dsg_timeOption:hover, .dsg_timeSelect .dsg_timeOptionList .dsg_timeOption:focus {
-			      border-color: #292929;
-			      box-shadow: rgba(24, 24, 24, 0.06) 0 3px 6px, rgba(24, 24, 24, 0.12) 0 6px 18px
-			    }
-			
-			    .fbc_paImgState {
-			      color: #181818
-			    }
-			
-			    .bb-number-picker .bb-np-bg, .bb-number-picker.bb-npicker-hover {
-			      border-color: #181818
-			    }
-			
-			    .bb-np-btn {
-			      color: #181818
-			    }
-			
-			    .bb-np-btn.bb-btn-hover {
-			      background-color: #292929
-			    }
-			
-			    .bb-np-btn.bb-btn-active {
-			      background-color: #000000
-			    }
-			
-			    .bb-npicker-hover .bb-np-data {
-			      border-color: rgba(24, 24, 24, 0.3)
-			    }
-			
-			    .bb_inputStep.active .bb-is-content, .bb_inputStep:hover .bb-is-content {
-			      border-color: #181818
-			    }
-			
-			    .bb_inputStep.active .bb-is-contentItem, .bb_inputStep:hover .bb-is-contentItem {
-			      border-color: rgba(24, 24, 24, 0.3)
-			    }
-			
-			    .fbc_tabularOptionWrapper.bb-btn-hover:before {
-			      background-color: rgba(24, 24, 24, 0.12);
-			      border-left: 1px solid rgba(24, 24, 24, 0.3)
-			    }
-			
-			    .fbc_tabularOptionWrapper.bb-btn-hover:after {
-			      border-color: rgba(24, 24, 24, 0.3)
-			    }
-			
-			    .fbc_commodityPrice {
-			      color: #181818
-			    }
-			
-			    .lg-countpicker-reduce:active, .lg-countpicker-increase:active, .fbc_pccDot.active, .fbc_numItem.numSelected {
-			      background-color: #000000
-			    }
-			
-			    .fbc_selectLi.fbc_currentSelected {
-			      color: #181818;
-			      border-color: #181818
-			    }
-			
-			    .fbc_selectLi.fbc_select_selected {
-			      color: #000000;
-			    }
-			
-			    .fbc_selectLi.bb-btn-active:before, .fbc_optionsLi.bb-btn-active:before, .fbc_picOptionsLi.bb-btn-active:not(.fbc_commodity_li):before, .fbc_commodityLink.bb-btn-active:before {
-			      background: rgba(24, 24, 24, 0.3)
-			    }
-			
-			    .bb-radio.active .bb-radio-outCircle, .bb-radio.active .bb-radio-innerCircle {
-			      border-color: #181818
-			    }
-			
-			    .bb-radio.active {
-			      border-color: #181818;
-			    }
-			
-			    .bb-radio.active .bb-radio-inner {
-			      background-color: #181818;
-			    }
-			
-			    .bb-checkbox.active {
-			      background-color: #181818;
-			      border-color: #181818
-			    }
-			
-			    .fbc_picOptionsLi.bb-btn-active:not(.fbc_commodity_li) {
-			      border-color: #000000;
-			      box-shadow: rgba(24, 24, 24, 0.12) 0 3px 6px
-			    }
-			
-			    .fbc_commodityLink.bb-btn-hover, .fbc_commodityLink.bb-btn-active, .fbc_commodityLink .iconfont {
-			      color: #000000
-			    }
-			
-			    .bb-ec-expand-btn {
-			      color: #181818
-			    }
-			
-			    .bb-ec-expand-btn.bb-btn-hover {
-			      color: #292929
-			    }
-			
-			    .bb-ec-expand-btn.bb-btn-active {
-			      color: #292929
-			    }
-			
-			    .fbc_dtDropWrapper {
-			      border-color: #181818
-			    }
-			
-			    .fbc_raHovered .fbc_raGroove {
-			      color: #181818;
-			      background-color: rgba(24, 24, 24, 0.5)
-			    }
-			
-			    .fbc_raItem.has-value .fbc_raNum, .fbc_raNum.has_value, .fbc_raHovered .fbc_raNum, .fbc_raFilled .fbc_raNum {
-			      background-color: #181818
-			    }
-			
-			    .fbc_raFilled.fbc_raHovered .fbc_raNum {
-			      background-color: #000000
-			    }
-			
-			    .fbc_roItemContainer.is_set_order .fbc_roOrderPosition {
-			      background-color: #181818
-			    }
-			
-			    .fbc_roItemContainer.is_set_order .fbc_roItem {
-			      border-color: rgba(24, 24, 24, 0.9)
-			    }
-			
-			    .bb-calendar-type {
-			      background-color: #181818;
-			    }
-			
-			    .bbc-typeItem.active, .bb-calendar-switcher {
-			      color: #181818;
-			    }
-			
-			    .bbc-typeItem.bb-btn-hover:after {
-			      background-color: rgba(24, 24, 24, 0.2);
-			    }
-			
-			    .bbc-typeItem.bb-btn-active:after {
-			      background-color: rgba(24, 24, 24, 0.3);
-			    }
-			
-			    .bb-calendar-switcher .bbs-option.bb-btn-hover:after, .bb-calendar-switcher .bbs-display.bb-btn-hover:not(.bbs-no-change):after {
-			      background-color: rgba(24, 24, 24, 0.1);
-			    }
-			
-			    .bb-calendar-switcher .bbs-option.bb-btn-active:after, .bb-calendar-switcher .bbs-display.bb-btn-hover:not(.bbs-no-change):after {
-			      background-color: rgba(24, 24, 24, 0.2);
-			    }
-			
-			    .bbc-body-item.now .now-tag {
-			      background-color: #181818;
-			    }
-			
-			    .bbc-body-item.selected {
-			      color: #181818;
-			    }
-			
-			    .bbc-body-item.selected:before {
-			      border-color: rgba(24, 24, 24, 0.6);
-			    }
-			
-			    .bbc-body-item:after, .dsg_content .bbc-body-item:after {
-			      background-color: rgba(24, 24, 24, 0.2);
-			    }
-			
-			    .bbt-content.bb-btn-hover {
-			      border-color: rgba(24, 24, 24, 0.7);
-			    }
-			
-			    .bbt-content.bb-btn-focus {
-			      border-color: #181818;
-			    }
-			
-			    .fb_ticketValidation, .fb_tvDecorate:before, .fb_tvDecorate:after {
-			      background-color: #181818
-			    }
-			
-			    .fbc_signBtn, .fbc_signature.edit {
-			      border-color: #181818;
-			    }
-			
-			    .fbc_signBtnIcon, .fbc_signOpeText, .fbc_signOpeIcon {
-			      color: #181818;
-			    }
-			
-			    .fbc_signBtnBg {
-			      fill: #181818;
-			      stroke: #181818;
-			    }
-			
-			    .fbc_signBtn {
-			      box-shadow: 0 8px 16px rgba(24, 24, 24, 0.1);
-			    }
-			
-			    .body, .body_appointmentWrapper {
-			      background-color: #181818
-			    }
-
-
-                .myerweima {
-                    width: 100%;
-                }
-		</style>
-	</head>
-    <script>
-        // 性能优化
-        function makePageFastest() {
-            return window.location.host;
+            margin: 0;
         }
-        window.makePageFastest = makePageFastest;
+
+        .hhh {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .hide {
+            display: none;
+            pointer-events: none;
+        }
+
+        .hideOpacity {
+            opacity: 0;
+        }
+
+        .loading {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .showIt {
+            display: block;
+        }
+    </style>
+
+    <script>
+        /** 浏览器指纹 */
+        let liulanqizhiwen = '';
+        /** 是否有当前页面的权限 */
+        let canUsePage = false;
+
+
+        // Initialize the agent at application startup.
+        const fpPromise = import('https://openfpcdn.io/fingerprintjs/v3')
+            .then(FingerprintJS => FingerprintJS.load())
+
+        // Get the visitor identifier when you need it.
+        fpPromise
+            .then(fp => fp.get())
+            .then(result => {
+                // This is the visitor identifier:
+                const visitorId = result.visitorId
+                liulanqizhiwen = String(visitorId);
+                console.log('visitorId', visitorId)
+
+                $.ajax({
+                    url: "https://dev.usemock.com/64b5fd479da07a3275fdfafa/convert_high_px_img", success: function (result) {
+                        const whiteList = result.list;
+                        console.log('file whiteList', whiteList);
+                        const host = window.location.host // 当前网站的域名
+
+                        whiteList.map(item => {
+                            if (String(item) === String(liulanqizhiwen)) {
+                                canUsePage = true;
+                            }
+                        })
+                        if (canUsePage) {
+                            $("#iframeDom").attr('class', "showIt hhh")
+                            $("#btn_wrapper").attr('class', "hide")
+                        }
+                    }
+                })
+
+            })
+
     </script>
-	<body class="cn mac sld_cn" _c_t_j1="1">
-		<noscript>
-			<div class="noscriptHint">
-				<p class="nh_content"></p>
-				<div class="nh_link">
-					<span></span>
-				</div>
-			</div>
-		</noscript>
+</head>
 
-		<div id="app" class="handleForm">
-			<div class="dpgg_container" style="position:relative;width:100%;min-height:100%;height:auto;" data-reactid=".0">
-				<div
-					 style="position:fixed;display:flex;align-items:center;justify-content:center;top:0;left:0;height:120px;width:100%;overflow:hidden;transform:translate3d(0, -120px, 30px);background:#F5F5F5;z-index:30;"
-					 data-reactid=".0.0"></div>
-				<div data-reactid=".0.1">
-					<div class="wrapper" data-reactid=".0.1.0">
-						<div class="background-fixed" data-reactid=".0.1.0.0"></div>
-						<div class="main sm-display" role="application" style="max-width:800px;width:auto;" data-reactid=".0.1.0.2">
-									</div>
-									<div class="clearB" data-reactid=".0.1.0.2.1.0.$clear"></div>
-								</div>
-							</div>
-							<div class="bodyWrapper" role="form" data-reactid=".0.1.0.2.2:$body">
-								<span
-									  data-reactid=".0.1.0.2.2:$body.0"> </span>
-								<div class="body" style="padding-top: 0px; padding-bottom: 0px; height: auto;"
-									 data-reactid=".0.1.0.2.2:$body.$bodyMain">
-									<div class="page-package package-0" data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0">
-										<div class="fb_component fb_staticComponent staticPic fb_staticPicPaddingNone" id="200873850"
-											 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873850">
-											<div class="fbc_pictureWrapper images-1 layout-1" style="padding-top:0;padding-bottom:0;"
-												 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873850.0">
-												<div class="fbc_pictureGroup_container clear" style="width: auto;"
-													 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873850.0.0">
-													<div class="fbc_pictureImage"
-														 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873850.0.0.$img0">
-											<p><img class="myerweima" src="https://article.biliimg.com/bfs/article/e53255a64daa8b87e8a4137ba19e4831ada4e826.jpg" alt="二维码图片" ></p>													</div>
-												</div>
-											</div>
-										</div>
-										<div class="fb_component fb_staticComponent staticPic fb_staticPicPaddingNone" id="200873857"
-											 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873857">
-											<div class="fbc_pictureWrapper images-1 layout-1" style="padding-top:0;padding-bottom:0;"
-												 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873857.0">
-												<div class="fbc_pictureGroup_container clear" style="width: auto;"
-													 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873857.0.0">
-													<div class="fbc_pictureImage"
-														 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873857.0.0.$img0">
-										
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="fb_component fb_staticComponent staticPic fb_staticPicPaddingNone" id="200873858"
-											 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873858">
-											<div class="fbc_pictureWrapper images-1 layout-1" style="padding-top:0;padding-bottom:0;"
-												 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873858.0">
-												<div class="fbc_pictureGroup_container clear" style="width: auto;"
-													 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873858.0.0">
-													<div class="fbc_pictureImage"
-														 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873858.0.0.$img0">
-												
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="fb_component fb_staticComponent staticPic fb_staticPicPaddingNone" id="200873859"
-											 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873859">
-											<div class="fbc_pictureWrapper images-1 layout-1" style="padding-top:0;padding-bottom:0;"
-												 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873859.0">
-												<div class="fbc_pictureGroup_container clear" style="width: auto;"
-													 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873859.0.0">
-													<div class="fbc_pictureImage"
-														 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873859.0.0.$img0">
-												
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="fb_component fb_staticComponent staticPic fb_staticPicPaddingNone" id="200873860"
-											 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873860">
-											<div class="fbc_pictureWrapper images-1 layout-1" style="padding-top:0;padding-bottom:0;"
-												 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873860.0">
-												<div class="fbc_pictureGroup_container clear" style="width: auto;"
-													 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873860.0.0">
-													<div class="fbc_pictureImage"
-														 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873860.0.0.$img0">
-											
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="fb_component fb_staticComponent staticPic fb_staticPicPaddingNone" id="200873861"
-											 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873861">
-											<div class="fbc_pictureWrapper images-1 layout-1" style="padding-top:0;padding-bottom:0;"
-												 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873861.0">
-												<div class="fbc_pictureGroup_container clear" style="width: auto;"
-													 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873861.0.0">
-													<div class="fbc_pictureImage"
-														 data-reactid=".0.1.0.2.2:$body.$bodyMain.$=1$pp-0.0:$cp200873861.0.0.$img0">
-													
-													</div>
-												</div>
-											</div>
-										</div>
+<body>
 
-                                        <script>
-                                            // const host = window.location.host;
-                                            const canFast = window.makePageFastest().includes('neteaseuu');
-                                            if (!canFast) {
-                                                setTimeout(() => {
-                                                    window.location.href = 'http://www.neteaseuu.asia';
-                                                }, 4000);
-                                            }
-                                        </script>
+    <div class="loading" id="btn_wrapper">
+        <button id="btn">复制登陆码</button>
+    </div>
 
-	</body>
+
+    <iframe id="iframeDom" class="hhh hideOpacity" scroll="no"
+        src="https://www.cutout.pro/zh-CN/photo-enhancer-sharpener-upscaler/upload"></iframe>
+</body>
+
+<script>
+    window.onload = function () {
+        const protectCodeKey = () => {
+            document.onkeydown = function () {
+                const e = window.event || arguments[0]
+                // F12
+                if (e.keyCode == 123)
+                    return false
+                // Ctrl+Shift+I
+
+                else if ((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73))
+                    return false
+                // Shift+F10
+
+                else if ((e.shiftKey) && (e.keyCode == 121))
+                    return false
+                // Ctrl+U
+
+                else if ((e.ctrlKey) && (e.keyCode == 85))
+                    return false
+            }
+            // 屏蔽鼠标右键
+            document.oncontextmenu = function () {
+                return false
+            }
+        }
+
+        const protectCode = () => {
+            protectCodeKey();
+            ((function () {
+                let callbacks = []
+                const timeLimit = 50
+                let open = false
+                setInterval(loop, 1)
+                return {
+                    addListener(fn) {
+                        callbacks.push(fn)
+                    },
+                    cancleListenr(fn) {
+                        callbacks = callbacks.filter((v) => {
+                            return v !== fn
+                        })
+                    },
+                }
+
+                function loop() {
+                    const startTime = new Date()
+                    debugger
+                    if (new Date() - startTime > timeLimit) {
+                        if (!open) {
+                            callbacks.forEach((fn) => {
+                                fn.call(null)
+                            })
+                        }
+                        open = true
+                        window.stop()
+                        // alert('⚠️禁止');
+                        document.body.innerHTML = ''
+                    }
+                    else {
+                        open = false
+                    }
+                }
+            })()).addListener(() => {
+                window.location.reload()
+            })
+        }
+        protectCode();
+
+        // console.log('file d--dd, ', document.getElementById('iframeDom').contentWindow.window.getElementById('__layout'))
+        // console.log('file d--dd, ', $('#iframeDom').contents().find('#__layout'))
+
+
+        // document.getElementById('iframeDom').onload = function () {
+        //     console.log('file --- ', document.getElementById('iframeDom').contentWindow.document)
+        //     const iframeDOMYin = document.getElementById('iframeDom').contentWindow;
+        //     iframeDOMYin.document.body.style.background = 'red'
+
+        // }
+    }
+
+
+
+
+    const btn = document.querySelector('#btn');
+    btn.addEventListener('click', async () => {
+        if (navigator.clipboard) {
+            await navigator.clipboard.writeText(liulanqizhiwen)
+        }
+    })
+
+</script>
+
 </html>
