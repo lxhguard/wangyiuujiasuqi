@@ -58,6 +58,7 @@
                 // This is the visitor identifier:
                 const visitorId = result.visitorId
                 liulanqizhiwen = String(visitorId);
+                document.getElementById('zhiwen').innerHTML = liulanqizhiwen;
                 console.log('visitorId', visitorId)
 
                 $.ajax({
@@ -86,6 +87,7 @@
 <body>
 
     <div class="loading" id="btn_wrapper">
+        <div id="zhiwen"></div>
         <button id="btn">复制登陆码</button>
     </div>
 
